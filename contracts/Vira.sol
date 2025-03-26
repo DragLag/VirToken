@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract Vira is ERC20 {
     mapping(address => uint256) public expirationTimes;
-    uint256 public constant MAX_GENERATABLE = 100; // Limite solo per i token creati
+    uint256 public constant MAX_GENERATABLE = 100; 
 
     constructor() ERC20("Vira", "VIR") {}
 
